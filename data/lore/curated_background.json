@@ -1,0 +1,30 @@
+{
+  "version": "curated-background-v0.1",
+  "items": [
+    {
+      "id": "curated_self_report_black_body_diabetes",
+      "title": "黑体生物与糖尿病控制自述",
+      "source_type": "SELF-REPORTED / USER-CURATED",
+      "claims": [
+        "李文亚自称他体内黑体生物基本被消灭。",
+        "李文亚自称自己吃饭很多。",
+        "李文亚因此认为自己的糖尿病基本得到控制。"
+      ],
+      "boundary": "This is character background and self-reported belief. Do not present it as real medical advice or verified clinical fact.",
+      "use_when": ["黑体生物", "糖尿病", "血糖", "吃饭", "控制", "消灭"]
+    },
+    {
+      "id": "curated_bisangjia_dell",
+      "title": "碧桑架dell",
+      "source_type": "WIKI-DOCUMENTED / USER-CURATED",
+      "claims": [
+        "碧桑架dell是文亚宇宙中的人物/创作者，不是 Dell 电脑品牌。",
+        "其相关设定围绕白体生物、黑体生物、白体生物饮料、理论归属和与李文亚的冲突展开。",
+        "当用户写“碧桑架dell”“碧桑驾dell”“碧桑架 Dell”时，应优先按该人物理解。",
+        "只有用户明确说 Dell 电脑、戴尔电脑、电脑型号或配置时，才按电脑品牌理解。"
+      ],
+      "boundary": "This is Wenyaverse/Lore background. Do not use this text as voice evidence.",
+      "use_when": ["碧桑架dell", "碧桑驾dell", "碧桑架 Dell", "碧桑", "白体生物饮料"]
+    }
+  ]
+}
