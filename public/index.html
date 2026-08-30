@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Li Wenya Agent</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <h1>Li Wenya Agent</h1>
+        <p id="runtimeInfo">线上角色对话版</p>
+      </div>
+      <div class="top-actions">
+        <label class="toggle" title="显示本轮检索到的 Lore、Voice 和 Signature 证据">
+          <input id="debugToggle" type="checkbox">
+          <span>证据追踪</span>
+        </label>
+        <button id="clearBtn" class="ghost" type="button" title="清空当前对话">清空</button>
+      </div>
+    </header>
+
+    <section class="workspace">
+      <section class="chat-panel">
+        <div id="messages" class="messages" aria-live="polite">
+          <div class="message assistant">我是李文亚呀。
+你有问题你就提出来。</div>
+        </div>
+        <form id="chatForm" class="composer">
+          <textarea id="messageInput" rows="2" placeholder="输入一句话，回车发送，Shift+Enter 换行"></textarea>
+          <button class="send" type="submit" title="发送">发送</button>
+        </form>
+      </section>
+
+      <aside id="debugPanel" class="debug hidden">
+        <div class="debug-title">
+          <span>证据追踪</span>
+          <span id="statusText">在线</span>
+        </div>
+        <pre id="debugOutput"></pre>
+      </aside>
+    </section>
+
+    <footer>
+      娱乐、戏仿和互联网文化保存性质的角色项目；输出不代表本人，也不构成科学、医学或法律建议。
+    </footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
