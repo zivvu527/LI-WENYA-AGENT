@@ -1,0 +1,14 @@
+{
+  "name": "li-wenya-online",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Online chat web app for Li Wenya Agent",
+  "scripts": {
+    "start": "node local-server.js",
+    "check": "node --check api/chat.js && node --check api/health.js && node --check local-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
