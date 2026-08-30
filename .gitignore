@@ -1,0 +1,11 @@
+node_modules/
+.env
+.vercel/
+__pycache__/
+*.pyc
+logs/
+*.mp4
+*.mkv
+*.mov
+*.avi
+data/corpus/raw_transcripts/
