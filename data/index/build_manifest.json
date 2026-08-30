@@ -1,0 +1,11 @@
+{
+  "project": "li-wenya-agent",
+  "version": "0.1.0",
+  "source_policy": "migrated from frozen li-wenya-skill research assets; no recrawl, no retranscription",
+  "transcripts": 10,
+  "lore_pages": 185,
+  "entities": 185,
+  "aliases": 212,
+  "voice_chunks": 1137,
+  "eval_cases": 8
+}
