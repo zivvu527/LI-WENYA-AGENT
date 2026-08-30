@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "public": true,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ],
+  "functions": {
+    "api/chat.js": {
+      "maxDuration": 60
+    }
+  }
+}
